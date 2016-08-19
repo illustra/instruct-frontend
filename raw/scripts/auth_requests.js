@@ -7,25 +7,27 @@ $(document).ready(function(){
 		{
 			'subject': 'Precalc',
 			'mentor': 'Mrs. H',
-			'progress': '37%',
+			'progress': '37',
 			'record': '27h'
 		},
 		{
 			'subject': 'Phil. Const.',
 			'mentor': 'Mr. D',
-			'progress': '84%',
+			'progress': '84',
 			'record': '5h'
 		}
 	];
-	populateHomeCards(cards);
+	//populateHomeCards(cards);
 });
 
 var populateUsernames = function(name){
 	$('.username').each(function(){ $(this).text(name) });
 }
+// Broken
+/*
 var populateHomeCards = function(jsonData) {
 	var row = El('div', '.row'), col = 0;
-	for (let i = 0; i < jsonData.length; i++) {
+	for (var i = 0; i < jsonData.length; i++) {
 		col++;
 		var item = jsonData[i],
 			card = createHomeCard(item.subject, item.mentor, item.progress, item.record);
@@ -49,7 +51,7 @@ var createHomeCard = function(subject, mentor, progress, record) {
 		ten = El('img'), eleven = El('p', '.username'), twelve = El('p');
 
 	// Body
-	six.innerHTML = progress + ' COMPLETE';
+	six.innerHTML = progress + '% COMPLETE';
 	five.innerHTML = subject;
 	five.appendChild(six);
 	nine.innerHTML = record + ' hours spent learning | Book another session >';
@@ -96,3 +98,4 @@ var El = function(el, className, id) {
 
 	return element;
 }
+*/
