@@ -14,7 +14,7 @@ $(document).ready(function(){
 		});
 	});
 
-	$('nav .right h3').mouseenter(function(){
+	$('nav .right h4').mouseenter(function(){
 		$('.dropdown').addClass('active');
 	});
 	$('.dropdown').mouseleave(function(){

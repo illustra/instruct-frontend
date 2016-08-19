@@ -1,4 +1,4 @@
 $(document).ready(function(){
 	// Populate username - guest for now
-	$('#header_username').text('Guest');
+	$('.username').each(function(){ $(this).text('Guest') });
 })

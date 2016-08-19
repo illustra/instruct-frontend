@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font.min.css">
 		<link rel="stylesheet" type="text/css" href="css/linearfont.min.css">
 		<link rel="stylesheet" type="text/css" href="css/auth.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	</head>
 	<body>
 		<!-- Navbar -->
@@ -25,7 +26,7 @@
 			</div>
 			<div class="right">
 				<div class="pane">
-					<h3>Hi, <strong id="header_username">{{user}}</strong></h3>
+					<h4>Hi, <strong class="username">{{user}}</strong></h4>
 				</div>
 			</div>
 		</nav>
@@ -34,7 +35,51 @@
 		<div id="app">
 			<!-- Homepage -->
 			<div id="home" class="active">
-				<h1>You are home</h1>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="col-md-12 subject">
+								<div class="card-header">
+									<img src="img/person.png" class="card-user-image">
+									<p class="username">{{user}}</p>
+									<img src="img/person.png" class="card-user-image">
+									<p>Mrs. H</p>
+								</div>
+								<div class="card-body">
+									<h2>Pre-Calculus &nbsp; <span class="label label-warning">37% COMPLETE</span></h2>
+									<br/>
+									<h5><b>27 hours spent learning | Book another session > </b></h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="col-md-12 subject">
+								<div class="card-header">
+									<img src="img/person.png" class="card-user-image">
+									<p class="username">{{user}}</p>
+									<img src="img/person.png" class="card-user-image">
+									<p>Mr. D</p>
+								</div>
+								<div class="card-body">
+									<h2>Phil. Const. &nbsp; <span class="label label-warning">84% COMPLETE</span></h2>
+									<br/>
+									<h5><b>5 hours spent learning | Book another session > </b></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-12 ad">
+								<div class="ad-text">
+									<h1>All your documents in one place.</h1>
+									<h5>Instruct works with <b>Google Drive</b>. Learn more.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<!-- Find a Tutor -->
@@ -61,5 +106,6 @@
 		<!-- JavaScript here -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/auth.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</body>
 </html>
