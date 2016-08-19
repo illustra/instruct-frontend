@@ -1,24 +1,29 @@
-// Colors
+/* Colors*/
 @white:      #fff;
 @black:      #000;
 @accentGray: #fafafa;
+@teal500:    #009688;
 
-// Resets
+/* Resets*/
 :before, ::before, :after, ::after { box-sizing: border-box; }
 html, body {
 	margin: 0;
 	width: 100%;
 	height: 100%;
 }
+*:focus {
+	outline: none;
+}
 
-// Text styles
-h1, h2, h3, h4, h5, h6, p, a, li, td, span {
+/* Text styles*/
+h1, h2, h3, h4, h5, h6, p, a, li, td, span, input {
 	font-family: 'AvenirNext', 'Helvetica Neue', 'Segoe UI', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
+	font-weight: 400;
 }
 a {
 	text-decoration: none;

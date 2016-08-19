@@ -4,6 +4,7 @@
 		<meta name="charset" content="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<title>Instruct</title>
+		<link rel="stylesheet" type="text/css" href="css/font.min.css">
 		<link rel="stylesheet" type="text/css" href="css/linearfont.min.css">
 		<link rel="stylesheet" type="text/css" href="css/auth.min.css">
 	</head>
@@ -13,9 +14,9 @@
 			<div class="left">
 				<div class="pane">
 					<ul>
-						<li class="active"><a href="#" title="Home" data-target="home"><i class="lnr lnr-home"></i></a></li>
-						<li><a href="#" title="Search" data-target="search"><i class="lnr lnr-users"></i></a></li>
-						<li><a href="#" title="Help" data-target="help"><i class="lnr lnr-question-circle"></i></a></li>
+						<a href="#" title="Home" data-target="home"><li class="active"><i class="lnr lnr-home"></i></li></a>
+						<a href="#" title="Search" data-target="search"><li><i class="lnr lnr-users"></i></li></a>
+						<a href="#" title="Profile" data-target="profile"><li><i class="lnr lnr-user"></i></li></a>
 					</ul>
 				</div>
 			</div>
@@ -24,9 +25,7 @@
 			</div>
 			<div class="right">
 				<div class="pane">
-					<div class="user">
-						<h3>Hi, <strong id="header_username"></strong></h3>
-					</div>
+					<h3>Hi, <strong id="header_username">{{user}}</strong></h3>
 				</div>
 			</div>
 		</nav>
@@ -40,13 +39,23 @@
 
 			<!-- Find a Tutor -->
 			<div id="search">
-				<h1>You are in Search</h1>
+				<input type="text" name="query" id="q" placeholder="What are you looking for?">
+				<h1></h1>
 			</div>
 
 			<!-- Profile/Settings page -->
 			<div id="profile">
 				<h1>You are on your profile</h1>
 			</div>
+		</div>
+
+		<!-- Dropdown menu -->
+		<div class="dropdown">
+			<ul>
+				<li>one</li>
+				<li>one</li>
+				<li>one</li>
+			</ul>
 		</div>
 
 		<!-- JavaScript here -->
