@@ -1,0 +1,873 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"EMA",
+				"email"
+			],
+			[
+				"verif",
+				"verifyToken"
+			],
+			[
+				"HTT",
+				"HTTP_HOST"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"return",
+				"returndata"
+			],
+			[
+				"ra",
+				"ramdiskoffset"
+			],
+			[
+				"kern",
+				"kerneloffset"
+			],
+			[
+				"img",
+				"img-ramdisk"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"str",
+				"storm-showers"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"api",
+				"apiKey"
+			],
+			[
+				"ge",
+				"geolocation"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"an",
+				"subpixel-antialiased"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"ba",
+				"bankCharge"
+			],
+			[
+				"du",
+				"dutiableValueVat"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"cu",
+				"customsDuty"
+			],
+			[
+				"dut",
+				"dutiableValue"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"input",
+				"input-group-addon"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ass",
+				"assets/img/formtype.png"
+			],
+			[
+				"asset",
+				"assets/css/home.css"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "raw/styles/style.less",
+			"settings":
+			{
+				"buffer_size": 1586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "instruct.sublime-build",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$(document).ready(function(){\n	$('nav .left a').each(function(el){\n		$(el).click(function(e){\n			e.preventDefault();\n\n			var targetScreen = $(this).attr('data-target');\n			$('#app > div').each(function(scr){ $(scr).removeClass('active') });\n			$('#'+targetScreen).addClass('active');\n		});\n	});\n});",
+			"file": "scripts/clickhandlers.js",
+			"file_size": 298,
+			"file_write_time": 131160838880000000,
+			"settings":
+			{
+				"buffer_size": 298,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "remo",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"build",
+				"CombineAndMinfiy: Build"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inpack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"minif",
+				"Minify::Minify File"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"satis",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"beaut",
+				"Beautify::Beautify File"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"bea",
+				"Beautify::Beautify File"
+			],
+			[
+				"mini",
+				"Minify::Minify File"
+			],
+			[
+				"be",
+				"Beautify::Beautify File"
+			],
+			[
+				"beau",
+				"Beautify::Beautify File"
+			],
+			[
+				"min",
+				"Minify::Minify File"
+			],
+			[
+				"minift",
+				"HTML Minfier: Minify File (modify existing)"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"path",
+				"FuzzyFilePath: Rebuild cache"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/aureljared/Downloads/x",
+		"/Users/aureljared/Downloads/x/raw",
+		"/Users/aureljared/Downloads/x/raw/styles"
+	],
+	"file_history":
+	[
+		"/Users/aureljared/Downloads/x/styles/style.less",
+		"/Users/aureljared/Downloads/x/scripts/build.txt",
+		"/Users/aureljared/Downloads/x/Gulpfile.js",
+		"/Users/aureljared/Downloads/x/x.sublime-project",
+		"/Users/aureljared/Downloads/x/js/app.js",
+		"/Users/aureljared/Downloads/x/styles/linearfont.min.css",
+		"/Users/aureljared/Development/instruct/js/_index.js",
+		"/Users/aureljared/Development/instruct/js/_home.js",
+		"/Users/aureljared/Development/instruct/index.php",
+		"/Users/aureljared/Development/instruct/home/index.php",
+		"/Users/aureljared/Development/instruct/Gulpfile.js",
+		"/Volumes/Polaris/Main/Other/Backup/Library.xml",
+		"/Users/aureljared/Development/instruct/js/app.js",
+		"/Users/aureljared/Development/instruct/raw/js-home/render.js",
+		"/Users/aureljared/Development/instruct/raw/layouts/navbar.jsx",
+		"/Users/aureljared/Development/instruct/js/layout.min.js",
+		"/Users/aureljared/Development/instruct/raw/js/session.js",
+		"/Users/aureljared/Development/instruct/raw/layouts/home.jsx",
+		"/Users/aureljared/Development/instruct/layout/navbar.jsx",
+		"/Users/aureljared/Development/instruct/v/home_noauth.php",
+		"/Users/aureljared/Development/instruct/v/navbar.php",
+		"/Users/aureljared/Development/instruct/p/reverify.php",
+		"/Users/aureljared/Development/instruct/env.php",
+		"/Users/aureljared/Development/instruct/p/login.php",
+		"/Users/aureljared/Development/instruct/p/signup.php",
+		"/Users/aureljared/Development/instruct/p/verify.php",
+		"/Users/aureljared/Development/instruct/utils/verify.php",
+		"/Users/aureljared/Development/instruct/utils/signup.php",
+		"/Users/aureljared/Development/instruct/utils/login.php",
+		"/Users/aureljared/Development/beacon/login.php",
+		"/Users/aureljared/Development/instruct/utils/logout.php",
+		"/Users/aureljared/Development/beacon/oauth.php",
+		"/Users/aureljared/Development/instruct/auth/logout.php",
+		"/Users/aureljared/Development/instruct/auth/signup.php",
+		"/Users/aureljared/Development/instruct/auth/login.php",
+		"/Users/aureljared/Downloads/react-15.3.0/examples/basic-jsx/index.html",
+		"/Users/aureljared/Development/beacon/cast.php",
+		"/Users/aureljared/Development/beacon/index.php",
+		"/Users/aureljared/Development/instruct/package.json",
+		"/Users/aureljared/Development/instruct/raw/styles/home.css",
+		"/Users/aureljared/Downloads/frontend/frontendreset.html",
+		"/Users/aureljared/Downloads/react-15.3.0/examples/basic/index.html",
+		"/Users/aureljared/Development/instruct/auth/crypto.php",
+		"/Users/aureljared/Development/beacon/config.php",
+		"/Users/aureljared/Development/beacon/logout.php",
+		"/Users/aureljared/Development/instruct/app.js",
+		"/Users/aureljared/Development/instruct/auth/database.js",
+		"/Users/aureljared/Development/instruct/auth/login.js",
+		"/Users/aureljared/Development/instruct/routes/index.js",
+		"/Users/aureljared/Development/instruct/auth/signup.js",
+		"/Users/aureljared/Development/instruct/views/error.jsx",
+		"/Users/aureljared/Development/instruct/views/index.jsx",
+		"/Users/aureljared/Development/instruct/views/default.jsx",
+		"/Users/aureljared/Development/instruct/public/stylesheets/style.less",
+		"/Users/aureljared/Development/instruct/auth/init.js",
+		"/Users/aureljared/Development/instruct/auth/user.js",
+		"/Users/aureljared/Development/instruct/start.js",
+		"/Users/aureljared/Development/instruct/utils/mongodb.js",
+		"/Users/aureljared/Development/instruct/models/user.js",
+		"/Users/aureljared/Development/instruct/utils/login.js",
+		"/Users/aureljared/Development/instruct/views/style.less",
+		"/Users/aureljared/Development/instruct/appz.js",
+		"/Users/aureljared/Development/instruct/bin/www",
+		"/Users/aureljared/Development/instruct/public/stylesheets/style.css",
+		"/Users/aureljared/Development/instruct/routes/users.js",
+		"/Users/aureljared/Development/instruct/views/error.jade",
+		"/Users/aureljared/Development/instruct/views/index.jade",
+		"/Users/aureljared/Development/instruct/utils/sys-info.js",
+		"/Users/aureljared/Development/instruct/static/sc.js",
+		"/Users/aureljared/Development/instruct/static/index.html",
+		"/Users/aureljared/Development/instruct/static/info.tag",
+		"/Users/aureljared/GitHub Repos/aureljared.github.io/404.html",
+		"/Users/aureljared/GitHub Repos/aureljared.github.io/assets/css/style.less",
+		"/Users/aureljared/GitHub Repos/aureljared.github.io/index.html",
+		"/Users/aureljared/Development/instruct/.eslintrc",
+		"/Users/aureljared/Development/instruct/static/nodejs-logo.svg",
+		"/Users/aureljared/Development/instruct/static/favicon.ico",
+		"/Users/aureljared/Development/instruct/static/asphalt.png",
+		"/Users/aureljared/Development/instruct/static/main.css",
+		"/Users/aureljared/Development/mips/out/init.rc",
+		"/Volumes/CANIS/bin/init.sh",
+		"/Users/aureljared/Development/mips/out/bin/bashbug",
+		"/Users/aureljared/Documents/Personal/Illustra Planner/promo/styles/font.css",
+		"/Users/aureljared/Development/mips/settings.json",
+		"/Users/aureljared/GitHub Repos/aureljared.github.io/assets/js/script.min.js",
+		"/Users/aureljared/Documents/Personal/Illustra Planner/promo/index.html",
+		"/Users/aureljared/Documents/Personal/Illustra Planner/promo/styles/style.less",
+		"/Users/aureljared/GitHub Repos/aureljared.github.io/assets/js/script.js",
+		"/Volumes/CANIS/bin/x",
+		"/Users/aureljared/Development/transmission-dsl5028en/README.md",
+		"/Users/aureljared/Development/mips/sysroot/ld-uClibc.so.0",
+		"/Users/aureljared/Downloads/out/include/openssl/bio.h",
+		"/Users/aureljared/Downloads/out/include/openssl/aes.h",
+		"/Users/aureljared/.bash_profile",
+		"/Users/aureljared/Development/mips/continue.sh",
+		"/Volumes/DISK/d",
+		"/Volumes/Polaris/Main/Software/Mac OS X/Productivity/GarageBand/download.sh",
+		"/Users/aureljared/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/aureljared/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/aureljared/GitHub Repos/pay-aureljared/index.php",
+		"/Users/aureljared/GitHub Repos/pay-aureljared/get.php",
+		"/Users/aureljared/GitHub Repos/pay-aureljared/env.php",
+		"/Users/aureljared/Downloads/bookmarks_7_22_16.html",
+		"/Users/aureljared/Development/enrc2b/cm13/last_kmsg",
+		"/Users/aureljared/Documents/pabebe/numtoword.cpp",
+		"/Users/aureljared/Documents/Personal/SandroAverage/tool/facemorpher/bin/stasm_util_osx_cv3",
+		"/Users/aureljared/Development/dlib/examples/webcam_face_pose_ex.cpp",
+		"/Users/aureljared/Downloads/FindOpenCV.cmake",
+		"/Users/aureljared/Downloads/latest.json",
+		"/Users/aureljared/Downloads/latest.beautified.json",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/wah/boot.img-ramdisk/init.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.tegra3-common.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.enrc2b.usb.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.usb.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.usb.configfs.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.zygote32.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.enrc2b.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.cm.rc",
+		"/Users/aureljared/bin/ramdisk",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.superuser.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init.trace.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/seapp_contexts",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/service_contexts",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/ueventd.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/ueventd.enrc2b.rc",
+		"/Users/aureljared/Development/enrc2b/cm13/boot.img-ramdisk/init",
+		"/Users/aureljared/Development/pwedebangmatulog/js/script.js"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"placeholder.jpg",
+			";\\nvar ",
+			"\\n",
+			"  ",
+			",",
+			"\\n\\n",
+			", ",
+			"\\t",
+			"$ ",
+			"\\n\\n",
+			" ",
+			",",
+			"\\t",
+			"auto_c",
+			"auto_",
+			"#26427b",
+			"fstab",
+			"ro.ha",
+			"error",
+			"no",
+			"/sdcard/Music/",
+			"Tagless",
+			".sk-cube-grid ",
+			"$",
+			"&#8369;",
+			"<input",
+			"&peso;",
+			")",
+			"(",
+			"1.2em",
+			"input-group-addon",
+			" currency-sign",
+			" aria-label=\"Amount (to the nearest dollar)\"",
+			"CircularSpUIT",
+			"CircularSpUIT-Book.ttf",
+			"font",
+			"./",
+			"#444",
+			"#3b5ea9",
+			"fa "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"img/placeholder.jpg",
+			",\\n    ",
+			";\\n    ",
+			";\\n\\t",
+			")\\n",
+			")",
+			"PLUGIN_INIT(",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"@accent",
+			"",
+			"Misc",
+			"",
+			"USD",
+			"<input disabled",
+			"&#8369;",
+			"",
+			"@textSize",
+			"input-group-addon currency-sign",
+			"",
+			"js/",
+			"@dark-text",
+			"@dark-hover",
+			"fa fa-fw "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1350,
+								1350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 611.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "raw/styles/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "instruct.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 261.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scripts/clickhandlers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "instruct.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
