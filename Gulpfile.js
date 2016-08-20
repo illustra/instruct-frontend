@@ -3,6 +3,7 @@ var gulp = require('gulp'),
 	imagemin = require('gulp-imagemin'),
 	concat = require('gulp-concat'),
 	//stripDebug = require('gulp-strip-debug'),
+  less = require('gulp-less'),
 	uglify = require('gulp-uglify'),
 	minifyCSS = require('gulp-clean-css');
 
@@ -29,9 +30,12 @@ gulp.task('noauth-js', function() {
 });
 gulp.task('scripts', ['auth-js', 'noauth-js'], function(){});
 
-// CSS concat, auto-prefix and minify
+// Styles concat, auto-prefix and minify
 gulp.task('auth-css', function() {
-  gulp.src(['./raw/styles/auth.css'])
+  gulp.src(['./raw/styles/auth.less'])
+    .pipe(less({
+      paths: [ './raw/styles/' ]
+    }))
     .pipe(concat('auth.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('./css/'));

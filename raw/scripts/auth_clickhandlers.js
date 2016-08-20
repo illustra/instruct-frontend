@@ -15,9 +15,11 @@ $(document).ready(function(){
 	});
 
 	$('nav .right h4').mouseenter(function(){
-		$('.dropdown').addClass('active');
+		//$('.dropdown').addClass('active');
+		$('.dropdown').slideDown();
 	});
 	$('.dropdown').mouseleave(function(){
-		$(this).removeClass('active');
+		//$(this).removeClass('active');
+		$('.dropdown').slideUp();
 	})
 });

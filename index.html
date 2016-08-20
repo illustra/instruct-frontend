@@ -7,7 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="css/font.min.css">
 		<link rel="stylesheet" type="text/css" href="css/linearfont.min.css">
 		<link rel="stylesheet" type="text/css" href="css/auth.min.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	</head>
 	<body>
 		<!-- Navbar -->
@@ -35,51 +34,59 @@
 		<div id="app">
 			<!-- Homepage -->
 			<div id="home" class="active">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="col-md-12 subject">
-								<div class="card-header">
-									<img src="img/person.png" class="card-user-image">
+				<!-- Subject -->
+				<section>
+					<div class="divider card">
+						<div class="divider-content">
+							<h4>current subjects</h4>
+						</div>
+					</div>
+					<div class="card card-6">
+						<div class="card-content">
+							<div class="card-header">
+								<div class="card-userinfo">
+									<img src="img/person.png">
 									<p class="username">{{user}}</p>
-									<img src="img/person.png" class="card-user-image">
+								</div>
+								<div class="card-userinfo">
+									<img src="img/person.png">
 									<p>Mrs. H</p>
 								</div>
-								<div class="card-body">
-									<h2>Pre-Calculus &nbsp; <span class="label label-warning">37% COMPLETE</span></h2>
-									<br/>
-									<h5><b>27 hours spent learning | Book another session > </b></h5>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<h1>Pre-Calculus<span class="progress">37% complete</span></h1>
+									<h5>27 hours spent learning</h5>
+								</div>
+								<div class="card-actions">
+									<a href="#" class="s_book">Book another session <i class="lnr lnr-chevron-right"></i></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
-							<div class="col-md-12 subject">
-								<div class="card-header">
-									<img src="img/person.png" class="card-user-image">
-									<p class="username">{{user}}</p>
-									<img src="img/person.png" class="card-user-image">
+					</div>
+					<div class="card card-6">
+						<div class="card-content">
+							<div class="card-header">
+								<div class="card-userinfo">
+									<p><img src="img/person.png"><span class="username">{{user}}</span></p>
+								</div>
+								<div class="card-userinfo">
+									<img src="img/person.png">
 									<p>Mr. D</p>
 								</div>
-								<div class="card-body">
-									<h2>Phil. Const. &nbsp; <span class="label label-warning">84% COMPLETE</span></h2>
-									<br/>
-									<h5><b>5 hours spent learning | Book another session > </b></h5>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<h1>PH Constitution<span class="progress">37% complete</span></h1>
+									<h5>5 hours spent learning</h5>
+								</div>
+								<div class="card-actions">
+									<a href="#" class="s_book">Book another session <i class="lnr lnr-chevron-right"></i></a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<br>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-12 ad">
-								<div class="ad-text">
-									<h1>All your documents in one place.</h1>
-									<h5>Instruct works with <b>Google Drive</b>. Learn more.</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				</section>
 			</div>
 
 			<!-- Find a Tutor -->
@@ -96,16 +103,12 @@
 
 		<!-- Dropdown menu -->
 		<div class="dropdown">
-			<ul>
-				<li>one</li>
-				<li>one</li>
-				<li>one</li>
-			</ul>
+			<a href="#" title="Account settings">Account settings</a>
+			<a href="#" title="Log out">Log out</a>
 		</div>
 
 		<!-- JavaScript here -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/auth.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</body>
 </html>
