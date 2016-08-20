@@ -1,32 +1,28 @@
-$(document).ready(function(){
-	var searchRequestTimeout = null;
-	$('nav a[title=Search]').click(function(){
-		$('#search input').focus().on("change keyup paste click", function(){
-			window.clearTimeout(searchRequestTimeout);
-
-			var query = $(this).val();
-			if (query)
-				$('#search h1').text('No results for ' + query);
-			else
-				$('#search h1').text('Start typing your query.');
-
-			// In a real environment we would send GET requests here.
-			// Start requesting data after user has stopped typing.
-			searchRequestTimeout = window.setTimeout(function(){
-				console.log('Server data requested');
-
-				Instruct.Search.query(null);
-			}, 750);
-		});
-	});
-});
-
 // todo
 Instruct.Search = {
 	query: function(query) {
+		// In a real environment, we would Instruct.Request.open()
+		// to get search results, but for now we return nothing.
+		this.displayResults([
+			{
+				'title': 'No results found',
+				'snippet': 'No results found'
+			}
+		]);
 		return;
 	},
-	display: function(results){
+	displayResults: function(results){
+		for (var i = 0; i < results.length; i++) {
+			var result = results[i],
+				searchResult = $('<div></div>').addClass('card card-12'),
+				resultContent = $('<div></div>').addClass('search-result'),
+				resultTitle = $('<h2></h2>').text(result.title),
+				resultSnippet = $('<p></p>').text(result.snippet);
+			$(resultContent).append(resultTitle).append(resultSnippet);
+			$(searchResult).append(resultContent);
+			$('#search-results').append(searchResult);
+		}
+
 		return;
 	},
 	loadSubject: function(subjectId){
