@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 	changed = require('gulp-changed'),
 	imagemin = require('gulp-imagemin'),
 	concat = require('gulp-concat'),
-	//stripDebug = require('gulp-strip-debug'),
+	order = require('gulp-order'),
   less = require('gulp-less'),
 	uglify = require('gulp-uglify'),
 	minifyCSS = require('gulp-clean-css');
@@ -17,14 +17,21 @@ gulp.task('imagemin', function() {
 
 // Build JS
 gulp.task('auth-js', function() {
-  gulp.src('./raw/scripts/auth_*.js')
-    .pipe(concat('auth.min.js'))
+  gulp.src('./raw/scripts/auth*.js')
+    .pipe(order([
+      'auth.js',
+      'auth_ux.js',
+      'auth_requests.js',
+      'auth_home.js',
+      'auth_search.js'
+    ]))
+    .pipe(concat('instruct.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./js/'));
 });
 gulp.task('noauth-js', function() {
   gulp.src('./raw/scripts/noauth_*.js')
-    .pipe(concat('auth.min.js'))
+    .pipe(concat('home.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./js/'));
 });
@@ -36,13 +43,13 @@ gulp.task('auth-css', function() {
     .pipe(less({
       paths: [ './raw/styles/' ]
     }))
-    .pipe(concat('auth.min.css'))
+    .pipe(concat('instruct.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('./css/'));
 });
 gulp.task('noauth-css', function() {
   gulp.src(['./raw/styles/noauth.css'])
-    .pipe(concat('noauth.min.css'))
+    .pipe(concat('home.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('./css/'));
 });

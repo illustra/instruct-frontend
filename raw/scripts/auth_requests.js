@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	// Populate user details - guest for now
 	var username = 'Guest', userImg = 'img/person.png';
-	populateUserDetails(username, userImg);
+	Instruct.UX.populateUserDetails(username, userImg);
 
 	// Populate home - dummy data for now
 	var content = [
@@ -25,12 +25,11 @@ $(document).ready(function(){
 			]
 		}
 	];
-	populateHomeCards(content, userImg, function(){
-		populateUserDetails(username, userImg);
+	Instruct.Home.populate(content, userImg, function(){
+		Instruct.UX.populateUserDetails(username, userImg);
 	});
 });
 
-var populateUserDetails = function(name, img){
-	$('.username').each(function(){ $(this).text(name) });
-	$('.userimg').each(function(){ $(this).attr('src', img) });
+Instruct.Request = function(url, query) {
+	return [];
 }
