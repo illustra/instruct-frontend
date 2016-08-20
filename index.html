@@ -33,66 +33,13 @@
 		<!-- App -->
 		<div id="app">
 			<!-- Homepage -->
-			<div id="home" class="active">
-				<!-- Subject -->
-				<section>
-					<div class="divider card">
-						<div class="divider-content">
-							<h4>current subjects</h4>
-						</div>
-					</div>
-					<div class="card card-6">
-						<div class="card-content">
-							<div class="card-header">
-								<div class="card-userinfo">
-									<img src="img/person.png">
-									<p class="username">{{user}}</p>
-								</div>
-								<div class="card-userinfo">
-									<img src="img/person.png">
-									<p>Mrs. H</p>
-								</div>
-							</div>
-							<div class="card-body">
-								<div class="card-text">
-									<h1>Pre-Calculus<span class="progress">37% complete</span></h1>
-									<h5>27 hours spent learning</h5>
-								</div>
-								<div class="card-actions">
-									<a href="#" class="s_book">Book another session <i class="lnr lnr-chevron-right"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card card-6">
-						<div class="card-content">
-							<div class="card-header">
-								<div class="card-userinfo">
-									<p><img src="img/person.png"><span class="username">{{user}}</span></p>
-								</div>
-								<div class="card-userinfo">
-									<img src="img/person.png">
-									<p>Mr. D</p>
-								</div>
-							</div>
-							<div class="card-body">
-								<div class="card-text">
-									<h1>PH Constitution<span class="progress">37% complete</span></h1>
-									<h5>5 hours spent learning</h5>
-								</div>
-								<div class="card-actions">
-									<a href="#" class="s_book">Book another session <i class="lnr lnr-chevron-right"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
+			<div id="home" class="active"></div>
 
 			<!-- Find a Tutor -->
 			<div id="search">
 				<input type="text" name="query" id="q" placeholder="What are you looking for?">
 				<h1></h1>
+				<div id="search-results"></div>
 			</div>
 
 			<!-- Profile/Settings page -->
