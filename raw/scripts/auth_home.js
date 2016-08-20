@@ -1,13 +1,15 @@
 Instruct.Home = {
-	populate: function(data, userImg, done){
-		var that = this;
+	populate: function(done) {
+		var ux = Instruct.UX, that = this,
+			data = Instruct.Request.selfStats(),
+			userImg = Instruct.Request.selfProfile().img;
 
 		// Section cards
 		var section = data[0],
 			sectionTitle = section.title,
 			cards = section.cards,
-			sectionEl = Instruct.UX.newElement('section');
-		$(sectionEl).append(that.createDivider(sectionTitle));
+			sectionEl = ux.newElement('section');
+		$(sectionEl).append(ux.createDivider(12, sectionTitle));
 		for (var i = 0; i < cards.length; i++) {
 			var card = cards[i];
 			$(sectionEl).append(that.createSubjectCard(card.subject, card.mentor, card.progress, card.record, userImg, card.img));
@@ -15,26 +17,6 @@ Instruct.Home = {
 		$('#home').append(sectionEl);
 
 		done();
-	},
-	createDivider: function(text) {
-		var El = Instruct.UX.newElement,
-			divider = El('div', '.card .divider'),
-			dividerContent = El('div', '.divider-content'),
-			dividerText = El('h4');
-		$(dividerText).text(text);
-		$(dividerContent).append(dividerText);
-		$(divider).append(dividerContent);
-		return divider;
-	},
-	createCard: function(width, header, body) {
-		var El = Instruct.UX.newElement,
-			card = El('div', '.card .card-' + width),
-			cardContent = El('div', '.card-content');
-		$(header).addClass('card-header');
-		$(body).addClass('card-body');
-		$(cardContent).append(header).append(body);
-		$(card).append(cardContent);
-		return card;
 	},
 	createSubjectCard: function(subject, mentor, progress, record, userImg, tutorImg) {
 		// Header
@@ -67,7 +49,7 @@ Instruct.Home = {
 		$(body).append(text).append(actions);
 
 		// Combine!
-		var subjectCard = this.createCard(6, header, body);
+		var subjectCard = Instruct.UX.createCard(6, header, body);
 		return subjectCard;
 	}
 }

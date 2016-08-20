@@ -23,7 +23,8 @@ gulp.task('auth-js', function() {
       'auth_ux.js',
       'auth_requests.js',
       'auth_home.js',
-      'auth_search.js'
+      'auth_search.js',
+      'auth_profile.js'
     ]))
     .pipe(concat('instruct.min.js'))
     .pipe(uglify())

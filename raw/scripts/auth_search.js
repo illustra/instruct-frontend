@@ -21,13 +21,18 @@ $(document).ready(function(){
 	});
 });
 
+// todo
 Instruct.Search = {
 	query: function(query) {
-		// todo
 		return;
 	},
 	display: function(results){
-		// todo
+		return;
+	},
+	loadSubject: function(subjectId){
+		return;
+	},
+	loadTutor: function(tutorId){
 		return;
 	}
 }

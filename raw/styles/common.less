@@ -1,7 +1,7 @@
 /* Colors*/
 @import "material-colors";
-@white:      #fff;
-@black:      #000;
+@white: #fff;
+@black: #000;
 
 /* Resets*/
 :before, ::before, :after, ::after { box-sizing: border-box; }
@@ -40,6 +40,16 @@ a { text-decoration: none }
 	h6 { font-size: .8em !important }
 }
 
+// Dividers
+#home .divider-content, #profile .divider {
+	margin: .6em;
+	h4 {
+		color: @grey-600;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+
 // Cards
 .card {
 	display: inline-block;
@@ -50,23 +60,7 @@ a { text-decoration: none }
 	&.card-4 { width: ~"calc(100% / 3)" }
 	&.card-6 { width: 50% }
 	&.card-8 { width: ~"calc((100% / 3) * 2)" }
-	&.card-12, &.divider { width: 100% }
-
-	// Adjusted sizes
-	@media screen and (max-width: 900px) {
-		& { width: 100% !important }
-		.card-content, .divider-content { margin: .6em 1.2em !important }
-	}
-
-	// Divider contents
-	.divider-content {
-		margin: .6em;
-		h4 {
-			color: @grey-600;
-			font-weight: 700;
-			text-transform: uppercase;
-		}
-	}
+	&.card-12 { width: 100% }
 
 	// Card contents
 	.card-content {
@@ -76,56 +70,11 @@ a { text-decoration: none }
 		margin: .6em;
 		padding: 1.2em;
 	}
-	.card-header, .card-body {
-		width: 100%;
-	}
-	.card-header {
-		margin-bottom: 1.2em;
-		overflow: auto;
+	.card-header, .card-body { width: 100% }
+}
 
-
-		.card-userinfo {
-			display: inline-block;
-			float: left;
-			width: 50%;
-
-			img, p {
-				display: inline-block;
-				vertical-align: middle;
-				margin: 0;
-			}
-			img {
-				width: 25px;
-				height: 25px;
-				border-radius: 100%;
-				margin-right: .6em;
-			}
-		}
-	}
-	.card-body {
-		.card-text {
-			.progress {
-				font-size: .5em;
-				vertical-align: middle;
-				background: @orange-800;
-				text-transform: uppercase;
-				color: @white;
-				font-weight: 700;
-				border-radius: 3px;
-				padding: .2em .4em;
-				margin-left: .6em;
-				display: inline-block;
-			}
-			h5 { font-weight: 600 !important }
-		}
-		.card-actions {
-			margin-top: .6em;
-			text-align: right;
-
-			.s_book {
-				font-weight: 400;
-				color: black;
-			}
-		}
-	}
+// Adjusted sizes
+@media screen and (max-width: 900px) {
+	.card { width: 100% !important }
+	.card-content, .divider-content, #profile .divider { margin: .6em 1.2em !important }
 }
